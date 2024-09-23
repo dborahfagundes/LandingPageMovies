@@ -1,0 +1,41 @@
+.filme-card {
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.filme-card:hover {
+  transform: scale(1.05);
+}
+
+.filme-poster {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.filme-card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #e50914;
+}
+
+.filme-card p {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+}
+
+.placeholder {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #444;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}

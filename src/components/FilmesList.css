@@ -1,0 +1,46 @@
+.filmes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.filme-card-wrapper {
+  margin: 10px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.action-button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 0.9rem;
+}
+
+.action-button:hover {
+  background-color: #cccccc;
+  color: black;
+  transform: scale(1.05);
+}
+
+.action-button:focus {
+  outline: none;
+}

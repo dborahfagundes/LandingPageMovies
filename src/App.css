@@ -1,0 +1,104 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: #ffffff;
+}
+
+h1, h2, h3 {
+  color: #e50914;
+}
+
+p {
+  color: #b3b3b3;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #222;
+  color: #e50914;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.filmes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.filme-card {
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  width: 200px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.filme-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+.filme-poster {
+  width: 100%;
+  height: 300px; /* Ajuste a altura para um visual mais cinematográfico */
+  object-fit: cover; /* Para que a imagem preencha o espaço sem distorcer */
+}
+
+.filme-card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #e50914;
+}
+
+.filme-card p {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.form-input, .form-button {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e50914;
+  background-color: #333;
+  color: #fff;
+}
+
+.form-button {
+  background-color: #e50914;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #ffae42;
+}

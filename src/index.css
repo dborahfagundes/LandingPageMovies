@@ -1,0 +1,38 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: #ffffff;
+}
+
+h1, h2, h3 {
+  color: #e50914;
+}
+
+p {
+  color: #b3b3b3;
+}
+
+.App {
+  text-align: center;
+  background-color: #141414;
+}
+
+a {
+  color: #e50914;
+}
+
+a:hover {
+  color: #ffae42; 
+}
+
+.filme-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+a:hover {
+  color: #ffae42;
+  transition: color 0.3s ease-in-out;
+}
