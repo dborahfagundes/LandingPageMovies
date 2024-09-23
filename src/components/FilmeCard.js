@@ -3,7 +3,7 @@ import './FilmeCard.css';
 
 const FilmeCard = ({ filme }) => {
   const getImagemPath = (imagemNome) => {
-    return `${process.env.PUBLIC_URL}/images/${imagemNome}`;
+    return `/images/${imagemNome}`;
   };
 
   return (
