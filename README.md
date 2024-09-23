@@ -1,48 +1,52 @@
-# API de Filmes Nacionais
+# National Movies API
 
-A **API de Filmes Nacionais** é uma aplicação desenvolvida com Node.js e Express, destinada a gerenciar uma coleção de filmes brasileiros. Este projeto foi desenvolvido como parte do mini projeto do M4 do curso "Programadores do Amanhã", com o objetivo de incentivar o acesso à cultura e ao cinema nacional.
+The **National Movies API** is an application developed with Node.js and Express, aimed at managing a collection of Brazilian films. This project was developed as part of the mini project for the M4 course "Programmers of Tomorrow," with the goal of promoting access to culture and national cinema. In this new update, I bring the Frontend of the project, which consumes the previously presented API.
 
-## Contexto
+## Context
 
-Conforme a Constituição Federal, o acesso ao lazer e à cultura é um direito do cidadão. Em 2018, o Exame Nacional do Ensino Médio abordou a temática "Democratização do acesso ao cinema no Brasil", evidenciando a necessidade de discutir a efetividade das legislações existentes e os desafios que ainda persistem, especialmente em relação à desigualdade social.
+According to the Federal Constitution, access to leisure and culture is a citizen's right. In 2018, the National High School Exam addressed the theme "Democratization of access to cinema in Brazil," highlighting the need to discuss the effectiveness of existing legislation and the challenges that still persist, especially regarding social inequality.
 
-A democratização do cinema é essencial não apenas como forma de entretenimento, mas também como estratégia de educação e ferramenta de transformação social. Projetos como o Cinema de Rua têm mostrado que é possível levar filmes às comunidades, promovendo o consumo do cinema nacional de forma acessível.
+The democratization of cinema is essential not only as a form of entertainment but also as a strategy for education and a tool for social transformation. Projects like Cinema de Rua have shown that it is possible to bring films to communities, promoting the consumption of national cinema in an accessible way.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
+- **React**: 18.3.1
+- **Axios**: 1.7.7
+- **CORS**: 2.8.5
 - **Node.js**: 14.x
 - **Express**: 4.x
-- **Nodemon**: Para reinicialização automática do servidor durante o desenvolvimento
-- **Cors**: Para habilitar CORS (Cross-Origin Resource Sharing)
-- **Body-Parser**: Para interpretar requisições com corpo em JSON
+- **Nodemon**: For automatic server restart during development
+- **CORS**: To enable Cross-Origin Resource Sharing
+- **Body-Parser**: To interpret requests with JSON bodies
 
-## Passo a Passo para Execução do Projeto
+## Steps to Run the Project
 
-### 1. Clone o repositório
+### 1. Clone the repository
 
+```
 git clone https://github.com/dborahfagundes/FilmesNacionais.git
-
-### 2. Instale as dependências
+```
+### 2. Install the dependencies
 ```
 npm install
 ```
-
-## 3. Execute a API
+### 3. Run the API
 ```
 npm start
 ```
-A API deve estar rodando em http://localhost:3000/api/filmes.
+The API should be running at http://localhost:3000/api/filmes.
 
-## 4. Teste os endpoints
-Você pode utilizar ferramentas como Postman ou Insomnia para testar os seguintes endpoints:
+### 4. Test the endpoints
+You can use tools like Postman or Insomnia to test the following endpoints:
 
 ```
-GET /api/filmes - Lista todos os filmes
-POST /api/filmes - Adiciona um novo filme
-PUT /api/filmes/:id - Atualiza um filme existente
-DELETE /api/filmes/:id - Remove um filme
+GET /api/filmes - Lists all movies
+POST /api/filmes - Adds a new movie
+PUT /api/filmes/:id - Updates an existing movie
+DELETE /api/filmes/:id - Removes a movie
 ```
+### Contribution <3
 
-## Contribuição
-Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades. Crie uma nova branch para suas alterações e envie um pull request.
-Espero que goste! <3
+Feel free to contribute with improvements or new features. Create a new branch for your changes and submit a pull request.
+
+I hope you enjoy it!
