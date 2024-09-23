@@ -14,19 +14,17 @@ The democratization of cinema is essential not only as a form of entertainment b
 - **Axios**: 1.7.7
 - **CORS**: 2.8.5
 - **Node.js**: 14.x
-- **Express**: 4.x
-- **Nodemon**: For automatic server restart during development
-- **CORS**: To enable Cross-Origin Resource Sharing
-- **Body-Parser**: To interpret requests with JSON bodies
+- **Express**: 4.19.2
 
 ## Steps to Run the Project
 
 ### 1. Clone the repository
-
 ```
 git clone https://github.com/dborahfagundes/FilmesNacionais.git
 ```
-### 2. Install the dependencies
+
+### 2. Navigate to the API folder and install the dependencies
+
 ```
 npm install
 ```
@@ -45,6 +43,16 @@ POST /api/filmes - Adds a new movie
 PUT /api/filmes/:id - Updates an existing movie
 DELETE /api/filmes/:id - Removes a movie
 ```
+### 5. Navigate to the Landing Page folder and install the dependencies
+```
+npm install
+```
+### 6. Run the Landing Page
+```
+npm start
+```
+The Landing Page should be accessible at http://localhost:3001 because the API will use the http://localhost:3000.
+
 ### Contribution <3
 
 Feel free to contribute with improvements or new features. Create a new branch for your changes and submit a pull request.
