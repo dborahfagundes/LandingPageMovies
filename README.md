@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# API de Filmes Nacionais
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **API de Filmes Nacionais** é uma aplicação desenvolvida com Node.js e Express, destinada a gerenciar uma coleção de filmes brasileiros. Este projeto foi desenvolvido como parte do mini projeto do M4 do curso "Programadores do Amanhã", com o objetivo de incentivar o acesso à cultura e ao cinema nacional.
 
-## Available Scripts
+## Contexto
 
-In the project directory, you can run:
+Conforme a Constituição Federal, o acesso ao lazer e à cultura é um direito do cidadão. Em 2018, o Exame Nacional do Ensino Médio abordou a temática "Democratização do acesso ao cinema no Brasil", evidenciando a necessidade de discutir a efetividade das legislações existentes e os desafios que ainda persistem, especialmente em relação à desigualdade social.
 
-### `npm start`
+A democratização do cinema é essencial não apenas como forma de entretenimento, mas também como estratégia de educação e ferramenta de transformação social. Projetos como o Cinema de Rua têm mostrado que é possível levar filmes às comunidades, promovendo o consumo do cinema nacional de forma acessível.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Node.js**: 14.x
+- **Express**: 4.x
+- **Nodemon**: Para reinicialização automática do servidor durante o desenvolvimento
+- **Cors**: Para habilitar CORS (Cross-Origin Resource Sharing)
+- **Body-Parser**: Para interpretar requisições com corpo em JSON
 
-### `npm test`
+## Passo a Passo para Execução do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clone o repositório
 
-### `npm run build`
+git clone https://github.com/dborahfagundes/FilmesNacionais.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Instale as dependências
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 3. Execute a API
+```
+npm start
+```
+A API deve estar rodando em http://localhost:3000/api/filmes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 4. Teste os endpoints
+Você pode utilizar ferramentas como Postman ou Insomnia para testar os seguintes endpoints:
 
-### `npm run eject`
+```
+GET /api/filmes - Lista todos os filmes
+POST /api/filmes - Adiciona um novo filme
+PUT /api/filmes/:id - Atualiza um filme existente
+DELETE /api/filmes/:id - Remove um filme
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contribuição
+Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades. Crie uma nova branch para suas alterações e envie um pull request.
+Espero que goste! <3
