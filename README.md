@@ -18,23 +18,18 @@ The democratization of cinema is essential not only as a form of entertainment b
 
 ## Steps to Run the Project
 
-### 1. Clone the repository
+### 1. Clone the repositorys
 ```
+git clone https://github.com/dborahfagundes/LandingPageMovies.git 
 git clone https://github.com/dborahfagundes/FilmesNacionais.git
 ```
-
-### 2. Navigate to the API folder and install the dependencies
-
+### 2. Run the API
 ```
-npm install
-```
-### 3. Run the API
-```
-npm start
+npm run dev
 ```
 The API should be running at http://localhost:3000/api/filmes.
 
-### 4. Test the endpoints
+### 3. Test the endpoints
 You can use tools like Postman or Insomnia to test the following endpoints:
 
 ```
@@ -43,11 +38,11 @@ POST /api/filmes - Adds a new movie
 PUT /api/filmes/:id - Updates an existing movie
 DELETE /api/filmes/:id - Removes a movie
 ```
-### 5. Navigate to the Landing Page folder and install the dependencies
+### 4. Navigate to the Landing Page folder and install the dependencies
 ```
 npm install
 ```
-### 6. Run the Landing Page
+### 5. Run the Landing Page
 ```
 npm start
 ```
