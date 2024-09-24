@@ -2,6 +2,9 @@
 
 The **National Movies** is an application developed with Node.js and Express, aimed at managing a collection of Brazilian films. This project was developed as part of the mini project for the M4 course "Programadores do Amanhã" with the goal of promoting access to culture and national cinema. In this new update, I bring the Frontend of the project, which consumes the previously presented API.
 
+![image](https://github.com/user-attachments/assets/1e825b44-ad2f-48f0-9f5b-f94b7fefadd8)
+
+
 ## Context
 
 According to the Federal Constitution, access to leisure and culture is a citizen's right. In 2018, the Exame Nacional do Ensino Médio (ENEM) addressed the theme "Democratization of access to cinema in Brazil," highlighting the need to discuss the effectiveness of existing legislation and the challenges that still persist, especially regarding social inequality.
@@ -29,6 +32,9 @@ npm run dev
 ```
 The API should be running at http://localhost:3000/api/filmes.
 
+![image](https://github.com/user-attachments/assets/fc7c7d30-5b85-4549-927d-39655802f80b)
+
+
 ### 3. Test the endpoints
 You can use tools like Postman or Insomnia to test the following endpoints:
 
@@ -47,6 +53,11 @@ npm install
 npm start
 ```
 The Landing Page should be accessible at http://localhost:3001 because the API will use the http://localhost:3000.
+
+![image](https://github.com/user-attachments/assets/3ba6c209-ce8c-40a6-9ffc-749899918c06)
+
+![image](https://github.com/user-attachments/assets/5cbe5f24-30a0-4211-8abc-dc5c8ff1deab)
+
 
 ### Contribution <3
 
