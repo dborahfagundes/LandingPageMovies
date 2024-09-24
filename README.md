@@ -1,10 +1,10 @@
-# National Movies API
+# National Movies Fullstack
 
-The **National Movies API** is an application developed with Node.js and Express, aimed at managing a collection of Brazilian films. This project was developed as part of the mini project for the M4 course "Programmers of Tomorrow," with the goal of promoting access to culture and national cinema. In this new update, I bring the Frontend of the project, which consumes the previously presented API.
+The **National Movies** is an application developed with Node.js and Express, aimed at managing a collection of Brazilian films. This project was developed as part of the mini project for the M4 course "Programmers of Tomorrow," with the goal of promoting access to culture and national cinema. In this new update, I bring the Frontend of the project, which consumes the previously presented API.
 
 ## Context
 
-According to the Federal Constitution, access to leisure and culture is a citizen's right. In 2018, the National High School Exam addressed the theme "Democratization of access to cinema in Brazil," highlighting the need to discuss the effectiveness of existing legislation and the challenges that still persist, especially regarding social inequality.
+According to the Federal Constitution, access to leisure and culture is a citizen's right. In 2018, the Exame Nacional do Ensino Médio (ENEM) addressed the theme "Democratization of access to cinema in Brazil," highlighting the need to discuss the effectiveness of existing legislation and the challenges that still persist, especially regarding social inequality.
 
 The democratization of cinema is essential not only as a form of entertainment but also as a strategy for education and a tool for social transformation. Projects like Cinema de Rua have shown that it is possible to bring films to communities, promoting the consumption of national cinema in an accessible way.
 
